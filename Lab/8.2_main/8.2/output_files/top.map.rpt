@@ -1,6 +1,6 @@
 Analysis & Synthesis report for top
-Wed Jan 30 14:11:44 2019
-Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Standard Edition
+Wed Feb 06 07:11:55 2019
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
 ---------------------
@@ -39,27 +39,27 @@ refer to the applicable agreement for further details.
 
 
 
-+-----------------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                                      ;
-+---------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Wed Jan 30 14:11:44 2019           ;
-; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Standard Edition ;
-; Revision Name                   ; top                                             ;
-; Top-level Entity Name           ; top                                             ;
-; Family                          ; Cyclone V                                       ;
-; Logic utilization (in ALMs)     ; N/A                                             ;
-; Total registers                 ; 0                                               ;
-; Total pins                      ; 50                                              ;
-; Total virtual pins              ; 0                                               ;
-; Total block memory bits         ; 0                                               ;
-; Total DSP Blocks                ; 0                                               ;
-; Total HSSI RX PCSs              ; 0                                               ;
-; Total HSSI PMA RX Deserializers ; 0                                               ;
-; Total HSSI TX PCSs              ; 0                                               ;
-; Total HSSI PMA TX Serializers   ; 0                                               ;
-; Total PLLs                      ; 0                                               ;
-; Total DLLs                      ; 0                                               ;
-+---------------------------------+-------------------------------------------------+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++---------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Wed Feb 06 07:11:55 2019       ;
+; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                   ; top                                         ;
+; Top-level Entity Name           ; top                                         ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 0                                           ;
+; Total pins                      ; 50                                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0                                           ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
@@ -154,7 +154,7 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 8           ;
+; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
@@ -165,14 +165,14 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                              ;
-+----------------------------------+-----------------+-----------------+----------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                       ; Library ;
-+----------------------------------+-----------------+-----------------+----------------------------------------------------+---------+
-; ../top.vhd                       ; yes             ; User VHDL File  ; C:/Users/s37v131/Desktop/8.2_main/top.vhd          ;         ;
-; ../char_decoder.vhd              ; yes             ; User VHDL File  ; C:/Users/s37v131/Desktop/8.2_main/char_decoder.vhd ;         ;
-+----------------------------------+-----------------+-----------------+----------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                         ;
++----------------------------------+-----------------+-----------------+---------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                  ; Library ;
++----------------------------------+-----------------+-----------------+---------------------------------------------------------------+---------+
+; ../top.vhd                       ; yes             ; User VHDL File  ; C:/Users/Josh/Documents/HW/EELE/Lab/8.2_main/top.vhd          ;         ;
+; ../char_decoder.vhd              ; yes             ; User VHDL File  ; C:/Users/Josh/Documents/HW/EELE/Lab/8.2_main/char_decoder.vhd ;         ;
++----------------------------------+-----------------+-----------------+---------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------------+
@@ -249,7 +249,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -258,19 +258,19 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
-    Info: Version 18.0.0 Build 614 04/24/2018 SJ Standard Edition
-    Info: Processing started: Wed Jan 30 14:11:31 2019
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+    Info: Processing started: Wed Feb 06 07:11:33 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Lab_08p1_7segment_decoder_using_process -c top
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
-Info (12021): Found 2 design units, including 1 entities, in source file /users/s37v131/desktop/8.2_main/top.vhd
-    Info (12022): Found design unit 1: top-top_arch File: C:/Users/s37v131/Desktop/8.2_main/top.vhd Line: 15
-    Info (12023): Found entity 1: top File: C:/Users/s37v131/Desktop/8.2_main/top.vhd Line: 4
-Info (12021): Found 2 design units, including 1 entities, in source file /users/s37v131/desktop/8.2_main/char_decoder.vhd
-    Info (12022): Found design unit 1: char_decoder-char_decoder_arch File: C:/Users/s37v131/Desktop/8.2_main/char_decoder.vhd Line: 9
-    Info (12023): Found entity 1: char_decoder File: C:/Users/s37v131/Desktop/8.2_main/char_decoder.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /users/josh/documents/hw/eele/lab/8.2_main/top.vhd
+    Info (12022): Found design unit 1: top-top_arch File: C:/Users/Josh/Documents/HW/EELE/Lab/8.2_main/top.vhd Line: 15
+    Info (12023): Found entity 1: top File: C:/Users/Josh/Documents/HW/EELE/Lab/8.2_main/top.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /users/josh/documents/hw/eele/lab/8.2_main/char_decoder.vhd
+    Info (12022): Found design unit 1: char_decoder-char_decoder_arch File: C:/Users/Josh/Documents/HW/EELE/Lab/8.2_main/char_decoder.vhd Line: 9
+    Info (12023): Found entity 1: char_decoder File: C:/Users/Josh/Documents/HW/EELE/Lab/8.2_main/char_decoder.vhd Line: 4
 Info (12127): Elaborating entity "top" for the top level hierarchy
-Info (12128): Elaborating entity "char_decoder" for hierarchy "char_decoder:C0" File: C:/Users/s37v131/Desktop/8.2_main/top.vhd Line: 25
+Info (12128): Elaborating entity "char_decoder" for hierarchy "char_decoder:C0" File: C:/Users/Josh/Documents/HW/EELE/Lab/8.2_main/top.vhd Line: 25
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -279,9 +279,9 @@ Info (21057): Implemented 57 device resources after synthesis - the final resour
     Info (21059): Implemented 46 output pins
     Info (21061): Implemented 7 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4871 megabytes
-    Info: Processing ended: Wed Jan 30 14:11:44 2019
-    Info: Elapsed time: 00:00:13
-    Info: Total CPU time (on all processors): 00:00:27
+    Info: Peak virtual memory: 4864 megabytes
+    Info: Processing ended: Wed Feb 06 07:11:55 2019
+    Info: Elapsed time: 00:00:22
+    Info: Total CPU time (on all processors): 00:00:37
 
 

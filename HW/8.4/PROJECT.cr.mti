@@ -1,0 +1,17 @@
+C:/Users/Josh/Documents/HW/EELE/8.4/SystemJ.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Josh\Documents\HW\EELE\8.4\SystemJ.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SystemJ
+-- Compiling architecture SystemJ_arch of SystemJ
+
+} {} {}} C:/Users/Josh/Documents/HW/EELE/8.4/SystemJ_TB.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Josh\Documents\HW\EELE\8.4\SystemJ_TB.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SystemJ_TB
+-- Compiling architecture SystemJ_TB_arch of SystemJ_TB
+
+} {} {}}

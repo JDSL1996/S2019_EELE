@@ -1,0 +1,273 @@
+ component char_decoder
+	port (
+		BIN_IN 	: in std_logic_vector (3 downto 0);
+		HEX_OUT 	: out std_logic_vector (6 downto 0));
+ end component;
+
+ 
+ component dflipflop0 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop1 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop2 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop3 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop4 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop5 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop6 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop7 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop8 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop9 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop10 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop11 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop12 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop13 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop14 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop15 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop16 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop17 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop18 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop19 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop20 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop21 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop22 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop23 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop24 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop25 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop26 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop27 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop28 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop29 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop30 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop31 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop32 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop33 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop34 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop35 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop36 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;
+ component dflipflop37 is
+ port (
+	Clock 	: in std_logic;
+	Reset 	: in std_logic;
+	D		 	: in std_logic;
+	Q, Qn 	: out std_logic);
+ end component;

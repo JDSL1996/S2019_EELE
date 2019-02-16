@@ -1,0 +1,23 @@
+Quartus Prime Archive log --	C:/Users/Josh/Documents/HW/EELE/Lab/9.1/Lab_09p1_ripple_counter_tmp_archive.qarlog
+
+Archive:	C:/Users/Josh/Documents/HW/EELE/Lab/9.1/Lab_09p1_ripple_counter_tmp_archive.qar
+Date:		Fri Feb 15 18:17:40 2019
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Josh/Documents/HW/EELE/Lab/9.1/Lab_09p1_ripple_counter.qpf
+C:/Users/Josh/Documents/HW/EELE/Lab/9.1/char_decoder.vhd
+C:/Users/Josh/Documents/HW/EELE/Lab/9.1/dflipflop.vhd
+C:/Users/Josh/Documents/HW/EELE/Lab/9.1/top.qsf
+C:/Users/Josh/Documents/HW/EELE/Lab/9.1/top.vhd
+c:/intelfpga/q/quartus/bin64/assignment_defaults.qdf
+	======= Total: 6 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Fri Feb 15 18:17:44 2019
+Source archive file:	C:/Users/Josh/Documents/HW/EELE/Lab/9.1/Lab_09p1_ripple_counter_tmp_archive.qar
+Archive was extracted into	C:/Users/Josh/Documents/HW/EELE/Lab/9.2/
+		 - successfully.

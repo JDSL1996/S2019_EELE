@@ -41,10 +41,10 @@ architecture clock_div_2ton_arch of clock_div_2ton is
 	MUX : process (Sel, CNT) 
 	 begin
 		case (Sel) is
-				when "00" => Clock_Out <= CNT(1);
-				when "01" => Clock_Out <= CNT(18);
-				when "10" => Clock_Out <= CNT(23);
-				when "11" => Clock_Out <= CNT(25);
+				when "00" => Clock_Out <= CNT(0);
+				when "01" => Clock_Out <= CNT(17);
+				when "10" => Clock_Out <= CNT(22);
+				when "11" => Clock_Out <= CNT(24);
 		end case;
 	 end process;
  

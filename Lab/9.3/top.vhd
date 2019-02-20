@@ -44,7 +44,7 @@ end component;
 	clk : clock_div_2ton port map (Clock_In => Clock_50, Reset => Reset, Sel => SW(1 downto 0), Clock_Out => Clock_div);
 	--end ripple
 	
-	Counter_24 : process (Clock_div, Reset)
+	Counter_24 : process (clock_div, Reset)
 		begin
 			if (Reset = '0') then
 				CNT_uns <= (others =>'0');

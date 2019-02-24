@@ -1,5 +1,5 @@
 Restore Archived Project report for top
-Sat Feb 16 13:37:35 2019
+Sun Feb 24 09:13:18 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -36,7 +36,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Restore Archived Project Summary                                        ;
 +---------------------------------+---------------------------------------+
-; Restore Archived Project Status ; Successful - Sat Feb 16 13:37:35 2019 ;
+; Restore Archived Project Status ; Successful - Sun Feb 24 09:13:18 2019 ;
 ; Revision Name                   ; top                                   ;
 ; Top-level Entity Name           ; top                                   ;
 ; Family                          ; Cyclone V                             ;
@@ -46,23 +46,24 @@ refer to the applicable agreement for further details.
 +-----------------------------------+
 ; Restore Archived Project Messages ;
 +-----------------------------------+
-Info: Successfully restored 'C:/Users/Josh/Documents/HW/EELE/Lab/9.2/Lab_09p2_walking1_fsm_tmp_archive.qar' into the 'C:/Users/Josh/Documents/HW/EELE/Lab/9.3' directory
+Info: Successfully restored 'C:/Users/Josh/Documents/HW/EELE/Lab/9.3/Lab_09p3_counter_n_clockdiv_2ton_tmp_archive.qar' into the 'C:/Users/Josh/Documents/HW/EELE/Lab/9.4' directory
 Info: Generated report 'top.restore.rpt'
 
 
-+---------------------------+
-; Files Restored            ;
-+---------------------------+
-; File Name                 ;
-+---------------------------+
-; qar_info.json             ;
-; Lab_09p2_walking1_fsm.qpf ;
-; assignment_defaults.qdf   ;
-; char_decoder.vhd          ;
-; dflipflop.vhd             ;
-; top.qsf                   ;
-; top.vhd                   ;
-+---------------------------+
++--------------------------------------+
+; Files Restored                       ;
++--------------------------------------+
+; File Name                            ;
++--------------------------------------+
+; qar_info.json                        ;
+; Lab_09p3_counter_n_clockdiv_2ton.qpf ;
+; assignment_defaults.qdf              ;
+; char_decoder.vhd                     ;
+; clock_div_2ton.vhd                   ;
+; dflipflop.vhd                        ;
+; top.qsf                              ;
+; top.vhd                              ;
++--------------------------------------+
 
 
 +--------------------+

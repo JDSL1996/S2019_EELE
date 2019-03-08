@@ -77,3 +77,9 @@ GPIO_1[6],Output,PIN_C13
 GPIO_1[7],Output,PIN_D13 
 GPIO_1[8],Output,PIN_G18
 GPIO_1[9],Output,PIN_G17
+
+GPIO_1[10],Output,PIN_H18
+GPIO_1[11],Output,PIN_J18
+GPIO_1[12],Output,PIN_J19
+GPIO_1[13],Output,PIN_G11
+GPIO_1[14],Output,PIN_H10

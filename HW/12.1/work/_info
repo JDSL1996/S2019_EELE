@@ -1,0 +1,189 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+Efull_adder
+Z0 w1554220308
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/Josh/Documents/HW/EELE/HW/12.1
+Z4 8C:\Users\Josh\Documents\HW\EELE\HW\12.1\full_adder.vhd
+Z5 FC:\Users\Josh\Documents\HW\EELE\HW\12.1\full_adder.vhd
+l0
+L4
+VL=HeMbS]XMUXE84m6@WP:0
+!s100 f9A^i:FiCTTbBAanOn^>G2
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1554222478
+!i10b 1
+Z8 !s108 1554222478.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Josh\Documents\HW\EELE\HW\12.1\full_adder.vhd|
+Z10 !s107 C:\Users\Josh\Documents\HW\EELE\HW\12.1\full_adder.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Afull_adder_arch
+R1
+R2
+DEx4 work 10 full_adder 0 22 L=HeMbS]XMUXE84m6@WP:0
+l18
+L9
+V1ESd_E>OeA?hIh4LGHb3?1
+!s100 JO[Vb@Wa?mULQKHVCafBX0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ehalf_adder
+Z13 w1554222473
+R1
+R2
+R3
+Z14 8C:\Users\Josh\Documents\HW\EELE\HW\12.1\half_adder.vhd
+Z15 FC:\Users\Josh\Documents\HW\EELE\HW\12.1\half_adder.vhd
+l0
+L4
+Vii:b5FG60mdZV]gLJ4mAT1
+!s100 j5VLM[YU2BP3MIc9^?5nS1
+R6
+32
+Z16 !s110 1554222477
+!i10b 1
+Z17 !s108 1554222477.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Josh\Documents\HW\EELE\HW\12.1\half_adder.vhd|
+Z19 !s107 C:\Users\Josh\Documents\HW\EELE\HW\12.1\half_adder.vhd|
+!i113 1
+R11
+R12
+Ahalf_adder_arch
+R1
+R2
+DEx4 work 10 half_adder 0 22 ii:b5FG60mdZV]gLJ4mAT1
+l10
+L9
+VJKaI^kEPJHRhN]PPZRJ_B0
+!s100 B^?iUhPjFF5bU14<7nWjT1
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Erca_4bit
+w1554220876
+R1
+R2
+R3
+Z20 8C:\Users\Josh\Documents\HW\EELE\HW\12.1\rca_8bit.vhd
+Z21 FC:\Users\Josh\Documents\HW\EELE\HW\12.1\rca_8bit.vhd
+l0
+L4
+VIW1_nXVS=Dl7KDJ81hHc11
+!s100 ;I5hW1K9Ve^B1^QD?DgdJ0
+R6
+32
+!s110 1554220884
+!i10b 1
+!s108 1554220883.000000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Josh\Documents\HW\EELE\HW\12.1\rca_8bit.vhd|
+Z23 !s107 C:\Users\Josh\Documents\HW\EELE\HW\12.1\rca_8bit.vhd|
+!i113 1
+R11
+R12
+Erca_8bit
+Z24 w1554221411
+R1
+R2
+R3
+R20
+R21
+l0
+L4
+V<<IGSHKLGfkz[i0O77V7C3
+!s100 XiLV2k5G3g]:kb:zoUYKg0
+R6
+32
+R7
+!i10b 1
+R8
+R22
+R23
+!i113 1
+R11
+R12
+Arca_8bit_arch
+R1
+R2
+DEx4 work 8 rca_8bit 0 22 <<IGSHKLGfkz[i0O77V7C3
+l19
+L10
+VMHdAzFFeb@fS_dL7JdK8;3
+!s100 l7d=Am`UdRki<24m4BT2V1
+R6
+32
+R7
+!i10b 1
+R8
+R22
+R23
+!i113 1
+R11
+R12
+Erca_8bit_tb
+Z25 w1554221440
+Z26 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R1
+R2
+R3
+Z27 8C:\Users\Josh\Documents\HW\EELE\HW\12.1\rca_8bit_TB.vhd
+Z28 FC:\Users\Josh\Documents\HW\EELE\HW\12.1\rca_8bit_TB.vhd
+l0
+L5
+V6ln1R5:15T[zG=FezPn[@2
+!s100 M0mB;h;zH6z[0Tz`T[GQ:0
+R6
+32
+R7
+!i10b 1
+R8
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Josh\Documents\HW\EELE\HW\12.1\rca_8bit_TB.vhd|
+Z30 !s107 C:\Users\Josh\Documents\HW\EELE\HW\12.1\rca_8bit_TB.vhd|
+!i113 1
+R11
+R12
+Arca_8bit_tb_arch
+R26
+R1
+R2
+Z31 DEx4 work 11 rca_8bit_tb 0 22 6ln1R5:15T[zG=FezPn[@2
+l19
+L8
+Z32 VKW1DN;<Q01]nC[z9URR5d2
+Z33 !s100 2]=Y?lA2ei@PGmRIeXU^h3
+R6
+32
+R7
+!i10b 1
+R8
+R29
+R30
+!i113 1
+R11
+R12

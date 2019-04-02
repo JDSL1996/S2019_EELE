@@ -1,0 +1,170 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Josh/Documents/HW/EELE/HW/12.1
+Eadd_n_sum_8bit
+Z0 w1554229854
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/Josh/Documents/HW/EELE/HW/12.2
+Z5 8C:\Users\Josh\Documents\HW\EELE\HW\12.2\add_n_sub_8bit.vhd
+Z6 FC:\Users\Josh\Documents\HW\EELE\HW\12.2\add_n_sub_8bit.vhd
+l0
+L5
+V^FGkMV9SdUEXJ__oD[mHa1
+!s100 0SFgFi`VgZo`[^Ub9E<^A2
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1554229861
+!i10b 1
+Z9 !s108 1554229861.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Josh\Documents\HW\EELE\HW\12.2\add_n_sub_8bit.vhd|
+Z11 !s107 C:\Users\Josh\Documents\HW\EELE\HW\12.2\add_n_sub_8bit.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Aadd_n_sum_8bit_arch
+R1
+R2
+R3
+DEx4 work 14 add_n_sum_8bit 0 22 ^FGkMV9SdUEXJ__oD[mHa1
+l24
+L13
+V@>lCZ0Toh4iIR64fK0J>F2
+!s100 inEb:323IYK5MbMA?k`ie1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eadd_n_sum_8bit_tb
+Z14 w1554230275
+R1
+R2
+R3
+R4
+Z15 8C:\Users\Josh\Documents\HW\EELE\HW\12.2\add_n_sub_8bit_TB.vhd
+Z16 FC:\Users\Josh\Documents\HW\EELE\HW\12.2\add_n_sub_8bit_TB.vhd
+l0
+L5
+VM`bRKWAROmNF]G`8Ed^560
+!s100 6S42GY`fO[:D<:2_Ye:Bc1
+R7
+32
+Z17 !s110 1554230280
+!i10b 1
+Z18 !s108 1554230280.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Josh\Documents\HW\EELE\HW\12.2\add_n_sub_8bit_TB.vhd|
+Z20 !s107 C:\Users\Josh\Documents\HW\EELE\HW\12.2\add_n_sub_8bit_TB.vhd|
+!i113 1
+R12
+R13
+Aadd_n_sum_8bit_tb_arch
+R1
+R2
+R3
+Z21 DEx4 work 17 add_n_sum_8bit_tb 0 22 M`bRKWAROmNF]G`8Ed^560
+l21
+L8
+VJ0CV]l_kgBB:TTiTKzdG40
+!s100 3Oh]FU?oL`<>:noHi_4ef1
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Efull_adder
+Z22 w1554220308
+R2
+R3
+R4
+Z23 8C:\Users\Josh\Documents\HW\EELE\HW\12.2\full_adder.vhd
+Z24 FC:\Users\Josh\Documents\HW\EELE\HW\12.2\full_adder.vhd
+l0
+L4
+VL=HeMbS]XMUXE84m6@WP:0
+!s100 f9A^i:FiCTTbBAanOn^>G2
+R7
+32
+R8
+!i10b 1
+R9
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Josh\Documents\HW\EELE\HW\12.2\full_adder.vhd|
+Z26 !s107 C:\Users\Josh\Documents\HW\EELE\HW\12.2\full_adder.vhd|
+!i113 1
+R12
+R13
+Afull_adder_arch
+R2
+R3
+DEx4 work 10 full_adder 0 22 L=HeMbS]XMUXE84m6@WP:0
+l18
+L9
+V1ESd_E>OeA?hIh4LGHb3?1
+!s100 JO[Vb@Wa?mULQKHVCafBX0
+R7
+32
+R8
+!i10b 1
+R9
+R25
+R26
+!i113 1
+R12
+R13
+Ehalf_adder
+Z27 w1554222473
+R2
+R3
+R4
+Z28 8C:/Users/Josh/Documents/HW/EELE/HW/12.2/half_adder.vhd
+Z29 FC:/Users/Josh/Documents/HW/EELE/HW/12.2/half_adder.vhd
+l0
+L4
+Vii:b5FG60mdZV]gLJ4mAT1
+!s100 j5VLM[YU2BP3MIc9^?5nS1
+R7
+32
+R8
+!i10b 1
+R9
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Josh/Documents/HW/EELE/HW/12.2/half_adder.vhd|
+Z31 !s107 C:/Users/Josh/Documents/HW/EELE/HW/12.2/half_adder.vhd|
+!i113 1
+R12
+R13
+Ahalf_adder_arch
+R2
+R3
+DEx4 work 10 half_adder 0 22 ii:b5FG60mdZV]gLJ4mAT1
+l10
+L9
+VJKaI^kEPJHRhN]PPZRJ_B0
+!s100 B^?iUhPjFF5bU14<7nWjT1
+R7
+32
+R8
+!i10b 1
+R9
+R30
+R31
+!i113 1
+R12
+R13

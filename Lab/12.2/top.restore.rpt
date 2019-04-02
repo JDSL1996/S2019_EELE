@@ -1,5 +1,5 @@
 Restore Archived Project report for top
-Tue Apr 02 13:32:14 2019
+Tue Apr 02 15:02:23 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -36,7 +36,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Restore Archived Project Summary                                        ;
 +---------------------------------+---------------------------------------+
-; Restore Archived Project Status ; Successful - Tue Apr 02 13:32:14 2019 ;
+; Restore Archived Project Status ; Successful - Tue Apr 02 15:02:23 2019 ;
 ; Revision Name                   ; top                                   ;
 ; Top-level Entity Name           ; top                                   ;
 ; Family                          ; Cyclone V                             ;
@@ -46,26 +46,26 @@ refer to the applicable agreement for further details.
 +-----------------------------------+
 ; Restore Archived Project Messages ;
 +-----------------------------------+
-Info: Successfully restored 'C:/Users/Josh/Documents/HW/EELE/Lab/10.1/Lab_10p1_ROM_memory_tmp_archive.qar' into the 'C:/Users/Josh/Documents/HW/EELE/Lab/12.1' directory
+Info: Successfully restored 'C:/Users/Josh/Documents/HW/EELE/Lab/12.1/Lab_12p1_Unsigned_Binary_Adder_tmp_archive.qar' into the 'C:/Users/Josh/Documents/HW/EELE/Lab/12.2' directory
 Info: Generated report 'top.restore.rpt'
 
 
-+-------------------------+
-; Files Restored          ;
-+-------------------------+
-; File Name               ;
-+-------------------------+
-; qar_info.json           ;
-; Lab_10p1_ROM_memory.qpf ;
-; assignment_defaults.qdf ;
-; char_decoder.vhd        ;
-; clock_div_2ton.vhd      ;
-; clock_div_prec.vhd      ;
-; dflipflop.vhd           ;
-; rom_64x8_sync.vhd       ;
-; top.qsf                 ;
-; top.vhd                 ;
-+-------------------------+
++------------------------------------+
+; Files Restored                     ;
++------------------------------------+
+; File Name                          ;
++------------------------------------+
+; qar_info.json                      ;
+; Lab_12p1_Unsigned_Binary_Adder.qpf ;
+; assignment_defaults.qdf            ;
+; char_decoder.vhd                   ;
+; clock_div_2ton.vhd                 ;
+; clock_div_prec.vhd                 ;
+; dflipflop.vhd                      ;
+; rom_64x8_sync.vhd                  ;
+; top.qsf                            ;
+; top.vhd                            ;
++------------------------------------+
 
 
 +--------------------+

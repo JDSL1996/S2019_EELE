@@ -17,29 +17,29 @@ architecture twos_char_decoder_arch of twos_char_decoder is
 		case (TWOS_COMP_IN) is
 			when "0000" => 
 				MAG_OUT <= "1000000";
-				SIGN_OUT <= "0000000";
+				SIGN_OUT <= "1111111";
 			when "0001" => 
 				MAG_OUT <= "1111001";
-				SIGN_OUT <= "0000000";
+				SIGN_OUT <= "1111111";
 			when "0010" => 
 				MAG_OUT <= "0100100";
-				SIGN_OUT <= "0000000";
+				SIGN_OUT <= "1111111";
 			when "0011" => 
 				MAG_OUT <= "0110000";
-				SIGN_OUT <= "0000000";
+				SIGN_OUT <= "1111111";
 			
 			when "0100" => 
 				MAG_OUT <= "0011001";
-				SIGN_OUT <= "0000000";
+				SIGN_OUT <= "1111111";
 			when "0101" => 
 				MAG_OUT <= "0010010";
-				SIGN_OUT <= "0000000";
+				SIGN_OUT <= "1111111";
 			when "0110" => 
 				MAG_OUT <= "0000010";
-				SIGN_OUT <= "0000000";
+				SIGN_OUT <= "1111111";
 			when "0111" => 
 				MAG_OUT <= "1111000";
-				SIGN_OUT <= "0000000";
+				SIGN_OUT <= "1111111";
 			
 			when "1000" => 
 				MAG_OUT <= "1111001";
